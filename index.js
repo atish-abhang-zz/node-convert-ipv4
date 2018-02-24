@@ -1,5 +1,5 @@
 
-function decimalToBinary(decimalIp) {   //provide decimal IP eg: 192.168.0.1
+exports.decimalToBinary = function (decimalIp) {   //provide decimal IP eg: 192.168.0.1
     var octet = [128, 64, 32, 16, 8, 4, 2, 1]
     var ip_ = decimalIp.split('.');
     var decimal = "";
@@ -21,7 +21,7 @@ function decimalToBinary(decimalIp) {   //provide decimal IP eg: 192.168.0.1
     return decimal;
 }
 
-function binaryToDecimal(binaryIp) {    //provide binary IP eg: 11000000.10101000.00000000.00000001
+exports.binaryToDecimal = function (binaryIp) {    //provide binary IP eg: 11000000.10101000.00000000.00000001
 
     var ip_ = binaryIp.split("");
     var octet = [7, 6, 5, 4, 3, 2, 1, 0];
