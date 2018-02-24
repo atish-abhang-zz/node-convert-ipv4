@@ -1,0 +1,30 @@
+{
+  "name": "node-convert-ipv4",
+  "version": "1.0.2",
+  "description": "Convert IPv4 address from decimal to binary and binary to decimal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atish-abhang/node-convert-ipv4.git"
+  },
+  "keywords": [
+    "convert",
+    "ip",
+    "binary",
+    "to",
+    "decimal",
+    "decimal",
+    "to",
+    "binary",
+    "ipv4"
+  ],
+  "author": "atish abhang <atishabhang17@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atish-abhang/node-convert-ipv4/issues"
+  },
+  "homepage": "https://github.com/atish-abhang/node-convert-ipv4#readme"
+}
