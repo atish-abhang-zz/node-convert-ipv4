@@ -29,7 +29,7 @@ exports.binaryToDecimal = function (binaryIp) {    //provide binary IP eg: 11000
     var sum = 0;
     var decimalIp = "";
 
-    for (var i = 0; i < ip_.length; i++) {
+    for (var i = 0; i < ip_.length + 1; i++) {
         if (ip_[i] == "1") {
             var raise = Math.pow(2, (octet[counter]));
             sum += raise;
